@@ -13,6 +13,10 @@ class DetailTodo(generics.RetrieveUpdateDestroyAPIView):    #Update
   queryset = ToDo.objects.all()
   serializer_class = ToDoSerializer
 
+class UpdateTodo(generics.UpdateAPIView):
+  queryset = ToDo.objects.all()
+  serializer_class = ToDoSerializer
+
 class CreateTodo(generics.CreateAPIView):      #Create
   queryset = ToDo.objects.all()
   serializer_class = ToDoSerializer
