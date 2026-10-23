@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+venv/
+env/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Django
+db.sqlite3
+*.log
+media/
+
+# Local config / editors
+.env
+.vscode/
+.idea/
